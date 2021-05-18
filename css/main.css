@@ -49,6 +49,8 @@ header {
 	margin: 0 auto;
 	display: flex;
   justify-content: center;
+	flex-basis: 100%;
+	flex-flow: row wrap;
 
 
 }
@@ -87,6 +89,8 @@ header nav ul li a{
 	display: flex;
   justify-content: center;
   align-items: center;
+	flex-basis: 100%;
+	flex-flow: row wrap;
 }
 
 .main-image {
@@ -115,9 +119,8 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	flex-basis: 100%;
 	height: auto;
-	float: left;
 	border-top: 1px solid #eee;
 }
 
@@ -164,6 +167,8 @@ footer {
 	display: flex;
   justify-content: center;
   align-items: center;
+	flex-basis: 100%;
+	flex-flow: row wrap;
 }
 footer span {
 	font-family: 'Galada', cursive;
@@ -171,3 +176,15 @@ footer span {
 	color: #77a466;
 	font-size: 14px;
 }
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
